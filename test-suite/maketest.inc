@@ -13,7 +13,7 @@ export NT=1 # Number of OpenMP threads
 #
 
 # Directory where the executables (*.x) are located
-export BINDIR=../../../bin
+export BINDIR=/usr/local/bin
 
 # How to run West parallel executables with MPI
 export PARA_PREFIX=mpirun -np ${NP}
@@ -30,4 +30,3 @@ export NIMAGE=${NI}
 export NPOOL=${NK}
 export NBAND=${NB}
 export OMP_NUM_THREADS=${NT}
-
