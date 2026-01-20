@@ -2,7 +2,7 @@
 # Parallel execution knobs
 #
 
-export NP=8 # Number of MPI processes
+export NP=4 # Number of MPI processes
 export NI=1 # Number of images
 export NK=1 # Number of pools
 export NB=1 # Number of band groups
