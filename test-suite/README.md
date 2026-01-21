@@ -34,6 +34,16 @@
 
 In order to manually run the test, simply run `make` or `make all` in the test-suite.
 
+You can also run pytest directly with a compact output style:
+
+```
+python3 -m pytest -v --tb=no --disable-warnings
+```
+
+- `-v` runs in verbose mode (shows each test name).
+- `--tb=no` suppresses traceback output for failures.
+- `--disable-warnings` hides warning summary lines.
+
 ## Adding new tests
 
 Additional tests can be added with the following procedure:
