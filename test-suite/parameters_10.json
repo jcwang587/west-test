@@ -1,0 +1,11 @@
+{
+  "tolerance": {
+    "total_energy": "1e-5",
+    "pdep_eigenvalue": "1e-3",
+    "singleparticle_energy": "1e-3",
+    "westpp": "1e-5",
+    "qdet": "1e-3",
+    "bse": "1e-3",
+    "forces": "1e-4"
+  }
+}
