@@ -19,7 +19,7 @@ export BINDIR=/usr/local/bin
 export PARA_PREFIX=mpirun -np ${NP}
 
 # How to run QE parallel executables with MPI
-export PARA_PREFIX_QE=mpirun -np 2
+export PARA_PREFIX_QE=mpirun -np ${NP}
 
 # How to download files
 export WGET=wget -N -q
