@@ -17,9 +17,6 @@ pw:
 wstat: pw
 	${PARA_PREFIX} ${BINDIR}/wstat.x -nimage ${NIMAGE} -nband ${NBAND} -i wstat.in > wstat.out 2> wstat.err
 
-wfreq: wstat
-	${PARA_PREFIX} ${BINDIR}/wfreq.x -nimage ${NIMAGE} -nband ${NBAND} -i wfreq.in > wfreq.out 2> wfreq.err
-
 title:
 	@echo
 	@echo "###############"
