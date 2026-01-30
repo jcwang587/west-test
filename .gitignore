@@ -1,3 +1,4 @@
 *.out
 *.save/
 CRASH
+.DS_Store
