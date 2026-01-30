@@ -72,4 +72,5 @@ input_west:
 wstat_control:
   wstat_calculation: S
   n_pdep_eigen: 200
+  l_reduce_io: false
 EOF
