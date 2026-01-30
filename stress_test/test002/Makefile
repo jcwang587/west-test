@@ -9,7 +9,7 @@ all: prepare_inputs run
 prepare_inputs:
 	bash prepare_inputs.sh
 
-run: pw wstat wfreq
+run: pw wstat
 
 pw:
 	${PARA_PREFIX_QE} ${BINDIR}/pw.x -i pw.in > pw.out 2> pw.err
