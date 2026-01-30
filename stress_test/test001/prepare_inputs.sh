@@ -16,8 +16,8 @@ ibrav           = 1
 celldm(1)       = 40
 nat             = 40
 ntyp            = 2
-ecutwfc         = 100
-nbnd            = 200
+ecutwfc         = 25
+nbnd            = 10
 assume_isolated = 'mp'
 /
 &electrons
@@ -79,7 +79,7 @@ input_west:
 
 wstat_control:
   wstat_calculation: S
-  n_pdep_eigen: 200
+  n_pdep_eigen: 50
 EOF
 
 
@@ -91,12 +91,12 @@ input_west:
 
 wstat_control:
   wstat_calculation: S
-  n_pdep_eigen: 200
+  n_pdep_eigen: 50
 
 wfreq_control:
   wfreq_calculation: XWGQ
   macropol_calculation: N
-  n_pdep_eigen_to_use: 200
+  n_pdep_eigen_to_use: 50
   qp_bandrange: [1,5]
   n_refreq: 300
   ecut_refreq: 2.0
