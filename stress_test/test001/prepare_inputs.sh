@@ -18,7 +18,7 @@ cat > pw.in << EOF
   ntyp            = 2
   ecutwfc         = 100
   nbnd            = 200
-  assume_isolated = 'mp'
+  assume_isolated = 'mt'
 /
 
 &electrons
