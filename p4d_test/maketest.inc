@@ -1,0 +1,32 @@
+#
+# Parallel execution knobs
+#
+
+export NP=1 # Number of MPI processes
+export NI=1 # Number of images
+export NK=1 # Number of pools
+export NB=1 # Number of band groups
+export NT=1 # Number of OpenMP threads
+
+#
+# Commands needed by the scripts
+#
+
+# Directory where the executables (*.x) are located
+export BINDIR=/usr/local/bin
+
+# How to run West parallel executables with MPI
+export PARA_PREFIX=mpirun -np ${NP}
+
+# How to run QE parallel executables with MPI
+export PARA_PREFIX_QE=mpirun -np ${NP}
+
+# How to download files
+export WGET=wget -N -q
+
+###### DO NOT TOUCH BELOW ######
+
+export NIMAGE=${NI}
+export NPOOL=${NK}
+export NBAND=${NB}
+export OMP_NUM_THREADS=${NT}
