@@ -1,0 +1,12 @@
+nohup: ignoring input
+
+###############
+### test001 ###
+###############
+
+
+SiH4 molecule gamma_only GW
+
+bash prepare_inputs.sh
+mpirun -np 1 /usr/local/bin/pw.x -i pw.in > pw.out 2> pw.err
+mpirun -np 1 /usr/local/bin/wstat.x -nimage 1  -nband 1  -i wstat.in > wstat.out 2> wstat.err
