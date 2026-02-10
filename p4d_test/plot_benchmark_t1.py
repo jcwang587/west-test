@@ -89,8 +89,8 @@ def make_plot(g_vals: list[int], pw_vals: list[float], wstat_vals: list[float], 
     ideal_vals = [ideal_ref * (g_ref / g) for g in g_vals]
 
     fig, ax = plt.subplots(figsize=(5, 5))
-    ax.plot(x_vals, pw_vals, marker="o", linewidth=2, label="PWSCF wall time")
-    ax.plot(x_vals, wstat_vals, marker="s", linewidth=2, label="WSTAT wall time")
+    ax.plot(x_vals, pw_vals, marker="o", linewidth=2, label="PWSCF")
+    ax.plot(x_vals, wstat_vals, marker="s", linewidth=2, label="WSTAT")
     ax.plot(
         x_vals,
         ideal_vals,
@@ -100,9 +100,8 @@ def make_plot(g_vals: list[int], pw_vals: list[float], wstat_vals: list[float], 
         label="_nolegend_",
     )
 
-    ax.set_title("p4d_test Benchmark (1-thread case: t1_g*)")
-    ax.set_xlabel("MPI ranks / GPUs (g)")
-    ax.set_ylabel("Wall time (s, log scale)")
+    ax.set_xlabel("Number of GPUs")
+    ax.set_ylabel("Wall time (s)")
     ax.set_xscale("log", base=2)
     ax.set_xlim(1, 8)
     ax.set_xticks(g_vals, labels=[str(v) for v in g_vals])
