@@ -3,8 +3,8 @@
 include ../maketest.inc
 
 # Hard-coded GPU count for this test
-export NP=8
-export NT=4
+export NP=2
+export NT=8
 export PARA_PREFIX=mpirun -np ${NP}
 export PARA_PREFIX_QE=mpirun -np ${NP}
 
