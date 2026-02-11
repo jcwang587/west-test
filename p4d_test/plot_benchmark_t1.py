@@ -94,7 +94,7 @@ def make_plot(
     wstat_speedup = [wstat_vals[0] / v for v in wstat_vals]
 
     fig, ax = plt.subplots(figsize=(5.8, 5.8), facecolor="white")
-    ax.set_facecolor("#f8fafc")
+    ax.set_facecolor("white")
 
     ax.plot(
         x_vals,
@@ -144,6 +144,7 @@ def make_plot(
             color="#1f77b4",
             fontweight="semibold",
             zorder=5,
+            bbox=dict(boxstyle="square,pad=0.3", fc="white", ec="none", alpha=0.8),
         )
 
     for x, y, s in zip(x_vals[1:], wstat_vals[1:], wstat_speedup[1:]):
@@ -158,6 +159,7 @@ def make_plot(
             color="#e4572e",
             fontweight="semibold",
             zorder=5,
+            bbox=dict(boxstyle="square,pad=0.3", fc="white", ec="none", alpha=0.8),
         )
 
     ax.set_xlabel("Number of GPUs", fontsize=14)
