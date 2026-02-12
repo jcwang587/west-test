@@ -32,8 +32,8 @@ def build_nv_diamond(
     a0=3.567,  # diamond lattice constant in angstrom (room-temp-ish)
     charge_state="minus",  # "minus" -> NV-, "neutral" -> NV0
     ecutwfc=50.0,
-    pseudo_C="C_ONCV_PBE-1.0.upf",
-    pseudo_N="N_ONCV_PBE-1.0.upf",
+    pseudo_C="C_ONCV_PBE-1.2.upf",
+    pseudo_N="N_ONCV_PBE-1.2.upf",
     outdir="./",
     pseudo_dir="./",
     prefix="nv_diamond",
@@ -109,7 +109,6 @@ def build_nv_diamond(
   prefix = '{prefix}'
   outdir = '{outdir}'
   pseudo_dir = '{pseudo_dir}'
-  verbosity = 'high'
 /
 &SYSTEM
   ibrav = 0
@@ -120,15 +119,14 @@ def build_nv_diamond(
   nspin = 1
   tot_charge = {tot_charge}
   input_dft = 'PBE'
-  assume_isolated = 'none'
 /
 &ELECTRONS
   diago_full_acc = .false.
 /
 
 ATOMIC_SPECIES
-C  12.011  {pseudo_C}
-N  14.007  {pseudo_N}
+C  12.01099968  {pseudo_C}
+N  14.00699997  {pseudo_N}
 
 CELL_PARAMETERS angstrom
 {cell_lines}
