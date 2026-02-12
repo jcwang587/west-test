@@ -1,5 +1,5 @@
 
-     Program PWSCF v.7.5 starts on 10Feb2026 at 20: 1:48 
+     Program PWSCF v.7.5 starts on 12Feb2026 at 15:43:35 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -10,12 +10,12 @@
      in publications or presentations arising from this work. More details at
      http://www.quantum-espresso.org/quote
 
-     Parallel version (MPI & OpenMP), running on      16 processor cores
+     Parallel version (MPI & OpenMP), running on       8 processor cores
      Number of MPI processes:                 8
-     Threads/MPI process:                     2
+     Threads/MPI process:                     1
 
      MPI processes distributed on     1 nodes
-     1140446 MiB available memory on the printing compute node when the environment starts
+     1141438 MiB available memory on the printing compute node when the environment starts
  
      Reading input from pw.in
 
@@ -160,7 +160,7 @@
      negative rho (up, down):  4.239E-03 0.000E+00
      Starting wfcs are random
 
-     total cpu time spent up to now is        2.7 secs
+     total cpu time spent up to now is       21.2 secs
 
      Self-consistent Calculation
 
@@ -170,7 +170,7 @@
 
      negative rho (up, down):  2.933E-06 0.000E+00
 
-     total cpu time spent up to now is        4.0 secs
+     total cpu time spent up to now is       22.7 secs
 
      total energy              =     -75.28439533 Ry
      estimated scf accuracy    <       1.49503462 Ry
@@ -179,7 +179,7 @@
      Davidson diagonalization with overlap
      ethr =  3.11E-03,  avg # of iterations = 10.0
 
-     total cpu time spent up to now is        4.6 secs
+     total cpu time spent up to now is       23.5 secs
 
      total energy              =     -75.38344872 Ry
      estimated scf accuracy    <       0.03659888 Ry
@@ -188,7 +188,7 @@
      Davidson diagonalization with overlap
      ethr =  7.62E-05,  avg # of iterations = 22.0
 
-     total cpu time spent up to now is        5.9 secs
+     total cpu time spent up to now is       25.2 secs
 
      total energy              =     -75.40451796 Ry
      estimated scf accuracy    <       0.00089057 Ry
@@ -198,7 +198,7 @@
      c_bands:  3 eigenvalues not converged
      ethr =  1.86E-06,  avg # of iterations = 40.0
 
-     total cpu time spent up to now is        7.1 secs
+     total cpu time spent up to now is       27.2 secs
 
      total energy              =     -75.40540976 Ry
      estimated scf accuracy    <       0.00006178 Ry
@@ -210,7 +210,7 @@
 
      negative rho (up, down):  8.751E-06 0.000E+00
 
-     total cpu time spent up to now is        8.4 secs
+     total cpu time spent up to now is       28.5 secs
 
      total energy              =     -75.40545717 Ry
      estimated scf accuracy    <       0.00000727 Ry
@@ -220,7 +220,7 @@
      c_bands:  3 eigenvalues not converged
      ethr =  1.51E-08,  avg # of iterations = 40.0
 
-     total cpu time spent up to now is        9.7 secs
+     total cpu time spent up to now is       29.8 secs
 
      End of self-consistent calculation
 
@@ -268,51 +268,51 @@
      Writing all to output data dir ./test.save/ :
      XML data file, charge density, pseudopotentials, collected wavefunctions
  
-     init_run     :      1.49s CPU      2.69s WALL (       1 calls)
-     electrons    :      6.85s CPU      7.47s WALL (       1 calls)
+     init_run     :      1.75s CPU     19.38s WALL (       1 calls)
+     electrons    :      6.83s CPU      9.11s WALL (       1 calls)
 
      Called by init_run:
-     wfcinit      :      0.13s CPU      0.98s WALL (       1 calls)
-     potinit      :      0.08s CPU      0.14s WALL (       1 calls)
-     hinit0       :      0.36s CPU      0.44s WALL (       1 calls)
+     wfcinit      :      0.25s CPU     13.17s WALL (       1 calls)
+     potinit      :      0.08s CPU      0.16s WALL (       1 calls)
+     hinit0       :      0.48s CPU      4.81s WALL (       1 calls)
 
      Called by electrons:
-     c_bands      :      5.49s CPU      5.61s WALL (       6 calls)
-     sum_band     :      0.50s CPU      0.51s WALL (       6 calls)
-     v_of_rho     :      0.36s CPU      0.42s WALL (       7 calls)
-     mix_rho      :      0.27s CPU      0.35s WALL (       6 calls)
+     c_bands      :      5.47s CPU      7.13s WALL (       6 calls)
+     sum_band     :      0.50s CPU      0.50s WALL (       6 calls)
+     v_of_rho     :      0.33s CPU      0.42s WALL (       7 calls)
+     mix_rho      :      0.27s CPU      0.45s WALL (       6 calls)
 
      Called by c_bands:
-     init_us_2    :      0.02s CPU      0.02s WALL (      13 calls)
-     regterg      :      5.32s CPU      5.44s WALL (      10 calls)
+     init_us_2    :      0.01s CPU      0.02s WALL (      13 calls)
+     regterg      :      5.31s CPU      6.96s WALL (      10 calls)
 
      Called by *egterg:
-     rdiaghg      :      0.93s CPU      0.97s WALL (     178 calls)
-                                        0.97s GPU  (     178 calls)
-     h_psi        :      3.29s CPU      4.11s WALL (     179 calls)
+     rdiaghg      :      0.93s CPU      6.49s WALL (     178 calls)
+                                        6.49s GPU  (     178 calls)
+     h_psi        :      3.40s CPU      9.47s WALL (     179 calls)
      g_psi        :      0.02s CPU      0.02s WALL (     168 calls)
 
      Called by h_psi:
-     h_psi:calbec :      0.13s CPU      0.22s WALL (     179 calls)
-     vloc_psi     :      3.06s CPU      3.79s WALL (     179 calls)
-                                        3.79s GPU  (     179 calls)
-     add_vuspsi   :      0.07s CPU      0.07s WALL (     179 calls)
+     h_psi:calbec :      0.25s CPU      4.39s WALL (     179 calls)
+     vloc_psi     :      3.05s CPU      3.83s WALL (     179 calls)
+                                        3.83s GPU  (     179 calls)
+     add_vuspsi   :      0.07s CPU      1.23s WALL (     179 calls)
 
      General routines
-     calbec       :      0.13s CPU      0.22s WALL (     179 calls)
-     fft          :      0.10s CPU      0.22s WALL (      56 calls)
-                                        0.22s GPU  (      56 calls)
+     calbec       :      0.25s CPU      4.39s WALL (     179 calls)
+     fft          :      0.24s CPU      4.58s WALL (      56 calls)
+                                        4.58s GPU  (      56 calls)
      ffts         :      0.01s CPU      0.01s WALL (       6 calls)
                                         0.01s GPU  (       6 calls)
-     fftw         :      1.97s CPU      3.31s WALL (    1722 calls)
-                                        3.29s GPU  (    1722 calls)
+     fftw         :      1.99s CPU      3.36s WALL (    1722 calls)
+                                        3.34s GPU  (    1722 calls)
  
      Parallel routines
  
-     PWSCF        :      8.87s CPU     26.55s WALL
+     PWSCF        :      9.14s CPU     45.84s WALL
 
  
-   This run was terminated on:  20: 2:15  10Feb2026            
+   This run was terminated on:  15:44:21  12Feb2026            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

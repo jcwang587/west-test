@@ -1,5 +1,5 @@
 
-     Program WSTAT v. 6.2.1 git rev. v6.2.1 starts on 10Feb2026 at 15:25:59 
+     Program WSTAT v. 6.2.1 git rev. v6.2.1 starts on 12Feb2026 at 15:44:45 
 
      This program is part of the open-source West suite
      for massively parallel calculations of excited states in materials; please cite
@@ -189,12 +189,12 @@
      in progress... |######              | 030% :               00.7s (E)               02.5s (X)
      in progress... |#######             | 035% :               00.8s (E)               02.4s (X)
      in progress... |########            | 040% :               00.9s (E)               02.4s (X)
-     in progress... |#########           | 045% :               01.0s (E)               02.4s (X)
+     in progress... |#########           | 045% :               01.0s (E)               02.3s (X)
      in progress... |##########          | 050% :               01.1s (E)               02.3s (X)
      in progress... |###########         | 055% :               01.2s (E)               02.3s (X)
      in progress... |############        | 060% :               01.3s (E)               02.3s (X)
      in progress... |#############       | 065% :               01.4s (E)               02.3s (X)
-     in progress... |##############      | 070% :               01.6s (E)               02.2s (X)
+     in progress... |##############      | 070% :               01.5s (E)               02.2s (X)
      in progress... |###############     | 075% :               01.7s (E)               02.2s (X)
      in progress... |################    | 080% :               01.8s (E)               02.2s (X)
      in progress... |#################   | 085% :               01.9s (E)               02.2s (X)
@@ -215,25 +215,25 @@
      --------------------------------------------------------------------------------------------
      Sternheimer eq. solver... with threshold =   1.000000E-08
      --------------------------------------------------------------------------------------------
-     in progress... |#                   | 005% :               01.5s (E)               30.0s (X)
-     in progress... |##                  | 010% :               02.2s (E)               22.4s (X)
-     in progress... |###                 | 015% :               02.9s (E)               19.8s (X)
-     in progress... |####                | 020% :               03.7s (E)               18.5s (X)
-     in progress... |#####               | 025% :               04.4s (E)               17.7s (X)
-     in progress... |######              | 030% :               05.1s (E)               17.2s (X)
-     in progress... |#######             | 035% :               05.9s (E)               16.8s (X)
-     in progress... |########            | 040% :               06.6s (E)               16.6s (X)
-     in progress... |#########           | 045% :               07.3s (E)               16.4s (X)
-     in progress... |##########          | 050% :               08.1s (E)               16.2s (X)
-     in progress... |###########         | 055% :               08.8s (E)               16.0s (X)
+     in progress... |#                   | 005% :               01.5s (E)               30.6s (X)
+     in progress... |##                  | 010% :               02.2s (E)               22.6s (X)
+     in progress... |###                 | 015% :               03.0s (E)               20.0s (X)
+     in progress... |####                | 020% :               03.7s (E)               18.6s (X)
+     in progress... |#####               | 025% :               04.4s (E)               17.8s (X)
+     in progress... |######              | 030% :               05.2s (E)               17.3s (X)
+     in progress... |#######             | 035% :               05.9s (E)               16.9s (X)
+     in progress... |########            | 040% :               06.6s (E)               16.7s (X)
+     in progress... |#########           | 045% :               07.4s (E)               16.4s (X)
+     in progress... |##########          | 050% :               08.1s (E)               16.3s (X)
+     in progress... |###########         | 055% :               08.8s (E)               16.1s (X)
      in progress... |############        | 060% :               09.5s (E)               15.9s (X)
-     in progress... |#############       | 065% :               10.2s (E)               15.8s (X)
+     in progress... |#############       | 065% :               10.3s (E)               15.8s (X)
      in progress... |##############      | 070% :               11.0s (E)               15.7s (X)
      in progress... |###############     | 075% :               11.7s (E)               15.6s (X)
      in progress... |################    | 080% :               12.4s (E)               15.5s (X)
-     in progress... |#################   | 085% :               13.1s (E)               15.4s (X)
-     in progress... |##################  | 090% :               13.8s (E)               15.4s (X)
-     in progress... |################### | 095% :               14.5s (E)               15.3s (X)
+     in progress... |#################   | 085% :               13.1s (E)               15.5s (X)
+     in progress... |##################  | 090% :               13.9s (E)               15.4s (X)
+     in progress... |################### | 095% :               14.6s (E)               15.3s (X)
      in progress... |####################| 100% :               15.3s (E)               15.3s (X)
      --------------------------------------------------------------------------------------------
      s-DIAGOX done in 00.2s with cuSOLVER
@@ -275,18 +275,18 @@
      in progress... |#####               | 025% :               05.7s (E)               22.9s (X)
      in progress... |######              | 030% :               06.8s (E)               22.8s (X)
      in progress... |#######             | 035% :               07.9s (E)               22.7s (X)
-     in progress... |########            | 040% :               09.1s (E)               22.7s (X)
-     in progress... |#########           | 045% :               10.2s (E)               22.7s (X)
+     in progress... |########            | 040% :               09.0s (E)               22.7s (X)
+     in progress... |#########           | 045% :               10.2s (E)               22.6s (X)
      in progress... |##########          | 050% :               11.3s (E)               22.6s (X)
      in progress... |###########         | 055% :               12.4s (E)               22.6s (X)
      in progress... |############        | 060% :               13.5s (E)               22.5s (X)
      in progress... |#############       | 065% :               14.6s (E)               22.5s (X)
-     in progress... |##############      | 070% :               15.8s (E)               22.5s (X)
+     in progress... |##############      | 070% :               15.7s (E)               22.5s (X)
      in progress... |###############     | 075% :               16.9s (E)               22.5s (X)
      in progress... |################    | 080% :               18.0s (E)               22.5s (X)
      in progress... |#################   | 085% :               19.1s (E)               22.5s (X)
      in progress... |##################  | 090% :               20.2s (E)               22.5s (X)
-     in progress... |################### | 095% :               21.4s (E)               22.5s (X)
+     in progress... |################### | 095% :               21.3s (E)               22.5s (X)
      in progress... |####################| 100% :               22.5s (E)               22.5s (X)
      --------------------------------------------------------------------------------------------
      s-DIAGOX done in < 00.1s with cuSOLVER
@@ -321,10 +321,10 @@
      --------------------------------------------------------------------------------------------
      Sternheimer eq. solver... with threshold =   1.000000E-16
      --------------------------------------------------------------------------------------------
-     in progress... |#                   | 005% :               01.1s (E)               22.5s (X)
-     in progress... |##                  | 010% :               02.2s (E)               22.4s (X)
-     in progress... |###                 | 015% :               03.3s (E)               22.4s (X)
-     in progress... |####                | 020% :               04.4s (E)               22.4s (X)
+     in progress... |#                   | 005% :               01.1s (E)               22.4s (X)
+     in progress... |##                  | 010% :               02.2s (E)               22.5s (X)
+     in progress... |###                 | 015% :               03.3s (E)               22.5s (X)
+     in progress... |####                | 020% :               04.5s (E)               22.5s (X)
      in progress... |#####               | 025% :               05.6s (E)               22.4s (X)
      in progress... |######              | 030% :               06.7s (E)               22.3s (X)
      in progress... |#######             | 035% :               07.8s (E)               22.3s (X)
@@ -333,10 +333,10 @@
      in progress... |##########          | 050% :               11.1s (E)               22.2s (X)
      in progress... |###########         | 055% :               12.2s (E)               22.2s (X)
      in progress... |############        | 060% :               13.3s (E)               22.2s (X)
-     in progress... |#############       | 065% :               14.4s (E)               22.1s (X)
+     in progress... |#############       | 065% :               14.4s (E)               22.2s (X)
      in progress... |##############      | 070% :               15.5s (E)               22.1s (X)
      in progress... |###############     | 075% :               16.6s (E)               22.1s (X)
-     in progress... |################    | 080% :               17.6s (E)               22.1s (X)
+     in progress... |################    | 080% :               17.7s (E)               22.1s (X)
      in progress... |#################   | 085% :               18.7s (E)               22.0s (X)
      in progress... |##################  | 090% :               19.8s (E)               22.0s (X)
      in progress... |################### | 095% :               20.9s (E)               22.0s (X)
@@ -359,7 +359,7 @@
        -0.22874
  
      --------------------------------------------------------------------------------------------
-     Tot. elapsed time 02m-12.0s,  time spent in last iteration 23.8s
+     Tot. elapsed time 02m-12.0s,  time spent in last iteration 23.9s
      --------------------------------------------------------------------------------------------
 
      [I/O] -------------------------------------------------------
@@ -374,16 +374,16 @@
      --------------------------------------------------------------------------------------------
      Sternheimer eq. solver... with threshold =   1.000000E-16
      --------------------------------------------------------------------------------------------
-     in progress... |#                   | 005% :               01.0s (E)               21.8s (X)
+     in progress... |#                   | 005% :               01.0s (E)               21.9s (X)
      in progress... |##                  | 010% :               02.1s (E)               21.8s (X)
-     in progress... |###                 | 015% :               03.2s (E)               21.7s (X)
-     in progress... |####                | 020% :               04.3s (E)               21.7s (X)
+     in progress... |###                 | 015% :               03.2s (E)               21.8s (X)
+     in progress... |####                | 020% :               04.3s (E)               21.8s (X)
      in progress... |#####               | 025% :               05.2s (E)               20.8s (X)
      in progress... |######              | 030% :               06.2s (E)               20.9s (X)
      in progress... |#######             | 035% :               07.3s (E)               21.0s (X)
      in progress... |########            | 040% :               08.4s (E)               21.1s (X)
      in progress... |#########           | 045% :               09.5s (E)               21.1s (X)
-     in progress... |##########          | 050% :               10.3s (E)               20.7s (X)
+     in progress... |##########          | 050% :               10.4s (E)               20.8s (X)
      in progress... |###########         | 055% :               11.4s (E)               20.8s (X)
      in progress... |############        | 060% :               12.5s (E)               20.9s (X)
      in progress... |#############       | 065% :               13.6s (E)               20.9s (X)
@@ -395,7 +395,7 @@
      in progress... |################### | 095% :               19.8s (E)               20.9s (X)
      in progress... |####################| 100% :               20.7s (E)               20.7s (X)
      --------------------------------------------------------------------------------------------
-     s-DIAGOX done in 00.3s with cuSOLVER
+     s-DIAGOX done in 00.2s with cuSOLVER
      --------------------------------------------------------------------------------------------
  
        -1.27321  -1.27321  -1.27317  -1.27316  -1.27315  -1.27313  -1.24706  -1.24705  -1.24123
@@ -412,7 +412,7 @@
        -0.23071
  
      --------------------------------------------------------------------------------------------
-     Tot. elapsed time 03m-18.1s,  time spent in last iteration 23.0s
+     Tot. elapsed time 03m-18.7s,  time spent in last iteration 22.9s
      --------------------------------------------------------------------------------------------
 
        Refresh the basis set
@@ -457,75 +457,75 @@
        -0.23088
  
      --------------------------------------------------------------------------------------------
-     Tot. elapsed time 03m-36.2s,  time spent in last iteration 03.6s
+     Tot. elapsed time 03m-36.5s,  time spent in last iteration 03.7s
      --------------------------------------------------------------------------------------------
  
      --------------------------------------------------------------------------------------------
-     SAVE written in 07.9s
+     SAVE written in 08.0s
      In location : ./test.wstat.save
      --------------------------------------------------------------------------------------------
  
      --------------------------------------------------------------------------------------------
      Convergence achieved !!! in        4 steps
      --------------------------------------------------------------------------------------------
-     WSTAT        :   1m41.03s CPU   3m54.42s WALL
+     WSTAT        :   1m41.30s CPU   3m53.42s WALL
 
-     west_readin  :      1.38s CPU      2.02s WALL (       1 calls)
-     fetch_input  :      0.00s CPU      0.06s WALL (       2 calls)
-     fft          :      0.06s CPU      0.19s WALL (      10 calls)
-                                        0.19s GPU  (      10 calls)
-     a2a_fw       :      2.16s CPU      2.31s WALL (   18899 calls)
+     west_readin  :      1.37s CPU      1.92s WALL (       1 calls)
+     fetch_input  :      0.00s CPU      0.05s WALL (       2 calls)
+     fft          :      0.07s CPU      0.20s WALL (      10 calls)
+                                        0.20s GPU  (      10 calls)
+     a2a_fw       :      2.14s CPU      2.31s WALL (   18899 calls)
      init_vloc    :      0.01s CPU      0.01s WALL (       2 calls)
      init_us_1    :      0.00s CPU      0.00s WALL (       2 calls)
-     a2a_bw       :      0.92s CPU      1.08s WALL (    6751 calls)
-     v_of_rho     :      0.06s CPU      0.09s WALL (       1 calls)
+     a2a_bw       :      0.93s CPU      1.11s WALL (    6751 calls)
+     v_of_rho     :      0.05s CPU      0.09s WALL (       1 calls)
      v_xc         :      0.02s CPU      0.04s WALL (       1 calls)
-     v_h          :      0.04s CPU      0.05s WALL (       1 calls)
-     do_setup     :      0.87s CPU      1.15s WALL (       1 calls)
-     init_pw_ar   :      0.87s CPU      1.13s WALL (       1 calls)
+     v_h          :      0.03s CPU      0.05s WALL (       1 calls)
+     do_setup     :      0.88s CPU      1.13s WALL (       1 calls)
+     init_pw_ar   :      0.88s CPU      1.11s WALL (       1 calls)
      hinit0       :      0.08s CPU      0.08s WALL (       1 calls)
-     chidiago     :     98.77s CPU    231.14s WALL (       1 calls)
-     sqvc_init    :      0.01s CPU      0.01s WALL (       1 calls)
-     randomize    :      4.00s CPU      4.02s WALL (       1 calls)
-     paramgs      :      1.73s CPU      2.27s WALL (       6 calls)
-                                        2.27s GPU  (       6 calls)
-     dfpt         :     83.68s CPU     85.05s WALL (       6 calls)
+     chidiago     :     99.04s CPU    230.27s WALL (       1 calls)
+     sqvc_init    :      0.00s CPU      0.00s WALL (       1 calls)
+     randomize    :      3.97s CPU      4.00s WALL (       1 calls)
+     paramgs      :      1.77s CPU      2.28s WALL (       6 calls)
+                                        2.28s GPU  (       6 calls)
+     dfpt         :     83.64s CPU     85.06s WALL (       6 calls)
      init_us_2    :      0.01s CPU      0.01s WALL (       6 calls)
-     fftw         :     34.37s CPU     45.64s WALL (   45986 calls)
-                                       45.04s GPU  (   45986 calls)
+     fftw         :     34.31s CPU     45.60s WALL (   45986 calls)
+                                       45.02s GPU  (   45986 calls)
      alphapc      :      0.20s CPU      0.25s WALL (     506 calls)
                                         0.24s GPU  (     506 calls)
-     wstat_restar :      3.93s CPU    116.48s WALL (       5 calls)
-     pdep_write   :      4.16s CPU    123.95s WALL (    1700 calls)
-     linstern     :     73.14s CPU     74.34s WALL (     406 calls)
-                                       74.34s GPU  (     406 calls)
-     stern        :     60.90s CPU     62.20s WALL (   10343 calls)
-                                       62.08s GPU  (   10343 calls)
-     h_psi        :     55.41s CPU     56.53s WALL (   10343 calls)
-     h_psi:pot    :     54.98s CPU     56.09s WALL (   10343 calls)
-     vloc_psi     :     47.40s CPU     48.53s WALL (   10343 calls)
-                                       48.39s GPU  (   10343 calls)
-     A2A          :     15.44s CPU     15.53s WALL (   53646 calls)
-     h_psi:calbec :      3.84s CPU      3.93s WALL (   10343 calls)
-     calbec       :      3.80s CPU      3.90s WALL (   10343 calls)
-     add_vuspsi   :      3.49s CPU      3.57s WALL (   10343 calls)
-     alphapv      :      3.60s CPU      4.14s WALL (   10343 calls)
-                                        4.00s GPU  (   10343 calls)
-     build_hr     :      1.34s CPU      2.14s WALL (       5 calls)
-                                        2.14s GPU  (       5 calls)
-     diagox       :      0.03s CPU      0.62s WALL (       5 calls)
-     redistr_vr   :      0.00s CPU      0.01s WALL (       4 calls)
-     update_vr    :      2.31s CPU      3.56s WALL (       4 calls)
-                                        3.56s GPU  (       4 calls)
-     chidiago:las :      0.55s CPU      0.87s WALL (       2 calls)
-     refresh_vr   :      0.81s CPU      1.27s WALL (       3 calls)
+     wstat_restar :      4.00s CPU    116.67s WALL (       5 calls)
+     pdep_write   :      4.27s CPU    124.29s WALL (    1700 calls)
+     linstern     :     73.15s CPU     74.38s WALL (     406 calls)
+                                       74.38s GPU  (     406 calls)
+     stern        :     60.90s CPU     62.24s WALL (   10343 calls)
+                                       62.12s GPU  (   10343 calls)
+     h_psi        :     55.32s CPU     56.48s WALL (   10343 calls)
+     h_psi:pot    :     54.89s CPU     56.05s WALL (   10343 calls)
+     vloc_psi     :     47.33s CPU     48.49s WALL (   10343 calls)
+                                       48.35s GPU  (   10343 calls)
+     A2A          :     15.43s CPU     15.53s WALL (   53646 calls)
+     h_psi:calbec :      3.85s CPU      3.95s WALL (   10343 calls)
+     calbec       :      3.82s CPU      3.92s WALL (   10343 calls)
+     add_vuspsi   :      3.46s CPU      3.54s WALL (   10343 calls)
+     alphapv      :      3.70s CPU      4.23s WALL (   10343 calls)
+                                        4.10s GPU  (   10343 calls)
+     build_hr     :      1.42s CPU      2.19s WALL (       5 calls)
+                                        2.19s GPU  (       5 calls)
+     diagox       :      0.02s CPU      0.54s WALL (       5 calls)
+     redistr_vr   :      0.01s CPU      0.01s WALL (       4 calls)
+     update_vr    :      2.39s CPU      3.66s WALL (       4 calls)
+                                        3.66s GPU  (       4 calls)
+     chidiago:las :      0.55s CPU      0.86s WALL (       2 calls)
+     refresh_vr   :      0.79s CPU      1.27s WALL (       3 calls)
                                         1.27s GPU  (       3 calls)
-     pdep_db      :      0.25s CPU      7.96s WALL (       1 calls)
+     pdep_db      :      0.29s CPU      8.08s WALL (       1 calls)
  
-     WSTAT        :   1m41.03s CPU   3m54.44s WALL
+     WSTAT        :   1m41.30s CPU   3m53.45s WALL
 
  
-   This run was terminated on:  15:29:53  10Feb2026            
+   This run was terminated on:  15:48:38  12Feb2026            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

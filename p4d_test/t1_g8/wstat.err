@@ -6,35 +6,35 @@ In case of unfounded HCA device please contact your system administrator.
 -x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
 If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
 In case of unfounded HCA device please contact your system administrator.
+[ip-192-168-2-144:54452] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
 [LOG_CAT_ML] You must specify a valid HCA device by setting:
 -x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
 If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
 In case of unfounded HCA device please contact your system administrator.
-[ip-192-168-2-207:39012] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
+[ip-192-168-2-144:54450] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
 [LOG_CAT_ML] You must specify a valid HCA device by setting:
 -x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
 If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
 In case of unfounded HCA device please contact your system administrator.
-[ip-192-168-2-207:39013] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
+[ip-192-168-2-144:54454] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
 [LOG_CAT_ML] You must specify a valid HCA device by setting:
 -x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
 If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
 In case of unfounded HCA device please contact your system administrator.
-[ip-192-168-2-207:39010] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
+[ip-192-168-2-144:54457] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
 [LOG_CAT_ML] You must specify a valid HCA device by setting:
 -x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
 If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
 In case of unfounded HCA device please contact your system administrator.
-[ip-192-168-2-207:39015] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
+[ip-192-168-2-144:54455] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
 [LOG_CAT_ML] You must specify a valid HCA device by setting:
 -x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
 If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
 In case of unfounded HCA device please contact your system administrator.
-[ip-192-168-2-207:39011] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
+[ip-192-168-2-144:54451] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
 [LOG_CAT_ML] You must specify a valid HCA device by setting:
 -x HCOLL_MAIN_IB=<dev_name:port> or -x UCX_NET_DEVICES=<dev_name:port>.
 If no device was specified for HCOLL (or the calling library), automatic device detection will be run.
 In case of unfounded HCA device please contact your system administrator.
-[ip-192-168-2-207:39008] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
-[ip-192-168-2-207:39014] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
-[ip-192-168-2-207:39009] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
+[ip-192-168-2-144:54453] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
+[ip-192-168-2-144:54456] Error: ../../../../../ompi/mca/coll/hcoll/coll_hcoll_module.c:310 - mca_coll_hcoll_comm_query() Hcol library init failed
