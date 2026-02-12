@@ -1,29 +1,23 @@
 &CONTROL
-  calculation = 'scf',
-  prefix = 'nv_diamond',
-  outdir = './tmp',
-  pseudo_dir = './pseudo',
-  verbosity = 'high',
+  calculation = 'scf'
+  prefix = 'nv_diamond'
+  outdir = './tmp'
+  pseudo_dir = './pseudo'
+  verbosity = 'high'
 /
 &SYSTEM
-  ibrav = 0,
-  nat = 511,
-  ntyp = 2,
-  ecutwfc = 80.0,
-  ecutrho = 640.0,
-  occupations = 'fixed',
-  nspin = 2,
-  tot_charge = -1.0,
-  input_dft = 'PBE',
-  starting_magnetization(1) = 0.05,   ! C
-  starting_magnetization(2) = 0.50,   ! N
-  assume_isolated = 'none',
+  ibrav = 0
+  nat = 511
+  ntyp = 2
+  ecutwfc = 50.0
+  occupations = 'fixed'
+  nspin = 1
+  tot_charge = -1.0
+  input_dft = 'PBE'
+  assume_isolated = 'none'
 /
 &ELECTRONS
-  conv_thr = 1.0d-8,
-  mixing_beta = 0.2,
-  electron_maxstep = 200,
-  diagonalization = 'david',
+  diago_full_acc = .false.
 /
 
 ATOMIC_SPECIES

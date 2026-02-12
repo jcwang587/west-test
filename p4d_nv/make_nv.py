@@ -31,10 +31,7 @@ def build_nv_diamond(
     supercell_n=3,  # 3 -> 216 pristine atoms, 4 -> 512 pristine atoms
     a0=3.567,  # diamond lattice constant in angstrom (room-temp-ish)
     charge_state="minus",  # "minus" -> NV-, "neutral" -> NV0
-    ecutwfc=80.0,
-    ecutrho=640.0,
-    kmesh_216=(2, 2, 2),
-    kmesh_512=(1, 1, 1),
+    ecutwfc=50.0,
     pseudo_C="C_ONCV_PBE-1.0.upf",
     pseudo_N="N_ONCV_PBE-1.0.upf",
     outdir="./tmp",
@@ -108,31 +105,25 @@ def build_nv_diamond(
     # - assume_isolated is left as 'none' for bulk 3D defect supercell benchmarking.
     # - For charged-defect energetics, finite-size corrections may be needed separately.
     pw_in = f"""&CONTROL
-  calculation = 'scf',
-  prefix = '{prefix}',
-  outdir = '{outdir}',
-  pseudo_dir = '{pseudo_dir}',
-  verbosity = 'high',
+  calculation = 'scf'
+  prefix = '{prefix}'
+  outdir = '{outdir}'
+  pseudo_dir = '{pseudo_dir}'
+  verbosity = 'high'
 /
 &SYSTEM
-  ibrav = 0,
-  nat = {nat},
-  ntyp = {ntyp},
-  ecutwfc = {ecutwfc},
-  ecutrho = {ecutrho},
-  occupations = 'fixed',
-  nspin = 2,
-  tot_charge = {tot_charge},
-  input_dft = 'PBE',
-  starting_magnetization(1) = 0.05,   ! C
-  starting_magnetization(2) = 0.50,   ! N
-  assume_isolated = 'none',
+  ibrav = 0
+  nat = {nat}
+  ntyp = {ntyp}
+  ecutwfc = {ecutwfc}
+  occupations = 'fixed'
+  nspin = 1
+  tot_charge = {tot_charge}
+  input_dft = 'PBE'
+  assume_isolated = 'none'
 /
 &ELECTRONS
-  conv_thr = 1.0d-8,
-  mixing_beta = 0.2,
-  electron_maxstep = 200,
-  diagonalization = 'david',
+  diago_full_acc = .false.
 /
 
 ATOMIC_SPECIES
