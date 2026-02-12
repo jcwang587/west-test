@@ -37,7 +37,7 @@ def build_nv_diamond(
     outdir="./",
     pseudo_dir="./",
     prefix="nv_diamond",
-    n_pdep_eigen=300,
+    n_pdep_eigen=100,
 ):
     # Build conventional cubic diamond cell (8 atoms), then supercell
     # ASE bulk('C','diamond',cubic=True) gives conventional cubic diamond cell
@@ -168,7 +168,7 @@ if __name__ == "__main__":
     # ---- EDIT THESE ----
     supercell_n = 4  # 3 or 4
     charge_state = "minus"  # "minus" (NV-) or "neutral" (NV0)
-    n_pdep_eigen = 400  # start point; converge this
+    n_pdep_eigen = 100  # start point; converge this
     # --------------------
 
     build_nv_diamond(
