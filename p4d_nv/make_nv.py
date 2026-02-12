@@ -163,6 +163,9 @@ wstat_control:
     print(f"Chosen vacancy index (in pristine indexing): {ivac}")
     print("Wrote: pw.in, wstat.in")
 
+    # export cif file
+    atoms_def.write("nv_diamond.cif")
+
 
 if __name__ == "__main__":
     # ---- EDIT THESE ----
