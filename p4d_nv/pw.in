@@ -1,9 +1,8 @@
 &CONTROL
   calculation = 'scf'
   prefix = 'nv_diamond'
-  outdir = './tmp'
-  pseudo_dir = './pseudo'
-  verbosity = 'high'
+  outdir = './'
+  pseudo_dir = './'
 /
 &SYSTEM
   ibrav = 0
