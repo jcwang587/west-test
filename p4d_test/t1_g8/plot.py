@@ -49,7 +49,6 @@ ax2.xaxis.get_offset_text().set_visible(False)
 
 ax1.set_ylabel("GPU Utilization (%)")
 ax2.set_ylabel("Memory Used (MB)")
-ax2.set_xlabel("Time")
 
 # Format memory ticks as 1k, 4k, etc (k = 1000 MiB)
 def _k_formatter(x, pos):
