@@ -34,8 +34,8 @@ def build_nv_diamond(
     ecutwfc=50.0,
     pseudo_C="C_ONCV_PBE-1.0.upf",
     pseudo_N="N_ONCV_PBE-1.0.upf",
-    outdir="./tmp",
-    pseudo_dir="./pseudo",
+    outdir="./",
+    pseudo_dir="./",
     prefix="nv_diamond",
     n_pdep_eigen=300,
 ):

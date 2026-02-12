@@ -3,6 +3,7 @@
   prefix = 'nv_diamond'
   outdir = './'
   pseudo_dir = './'
+  verbosity = 'high'
 /
 &SYSTEM
   ibrav = 0
