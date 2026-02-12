@@ -1,3 +1,5 @@
 *.save/
 CRASH
 .DS_Store
+*.mix*
+*.wfc*
