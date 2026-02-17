@@ -17,7 +17,7 @@
   input_dft = 'PBE'
 /
 &ELECTRONS
-  electron_maxstep = 300
+  electron_maxstep = 1000
   conv_thr = 1.0d-8
   mixing_mode = 'plain'
   mixing_beta = 0.2
