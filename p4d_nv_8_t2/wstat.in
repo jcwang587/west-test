@@ -1,8 +1,0 @@
-input_west:
-  qe_prefix: nv_diamond
-  west_prefix: nv_diamond
-  outdir: ./
-
-wstat_control:
-  wstat_calculation: S
-  n_pdep_eigen: 100
