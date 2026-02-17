@@ -10,11 +10,18 @@
   ntyp = 2
   ecutwfc = 50.0
   occupations = 'fixed'
-  nspin = 1
+  nspin = 2
+  starting_magnetization(1) = 0.0
+  starting_magnetization(2) = 0.5
   tot_charge = -1.0
   input_dft = 'PBE'
 /
 &ELECTRONS
+  electron_maxstep = 300
+  conv_thr = 1.0d-8
+  mixing_mode = 'plain'
+  mixing_beta = 0.2
+  diagonalization = 'david'
   diago_full_acc = .false.
 /
 
