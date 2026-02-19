@@ -1,37 +1,28 @@
 &CONTROL
   calculation = 'scf'
-  prefix = 'nv_diamond'
-  outdir = './'
   pseudo_dir = './'
 /
 &SYSTEM
   ibrav = 0
+  ecutwfc = 50
+  tot_charge = -1.0
+  nspin = 2
+  tot_magnetization = 2.0
+  nbnd = 150
   nat = 511
   ntyp = 2
-  ecutwfc = 50.0
-  occupations = 'fixed'
-  nspin = 1
-  tot_charge = -1.0
-  input_dft = 'PBE'
 /
 &ELECTRONS
-  electron_maxstep = 1000
-  conv_thr = 1.0d-8
-  mixing_mode = 'plain'
-  mixing_beta = 0.2
-  diagonalization = 'david'
-  diago_full_acc = .false.
+  diago_full_acc = .true.
 /
-
-ATOMIC_SPECIES
-C  12.01099968  C_ONCV_PBE-1.2.upf
-N  14.00699997  N_ONCV_PBE-1.2.upf
-
+K_POINTS gamma
 CELL_PARAMETERS angstrom
      14.2680000000     0.0000000000     0.0000000000
       0.0000000000    14.2680000000     0.0000000000
       0.0000000000     0.0000000000    14.2680000000
-
+ATOMIC_SPECIES
+C  12.01099968  C_ONCV_PBE-1.2.upf
+N  14.00699997  N_ONCV_PBE-1.2.upf
 ATOMIC_POSITIONS angstrom
 C      0.0000000000     0.0000000000     0.0000000000
 C      0.8917500000     0.8917500000     0.8917500000
@@ -544,5 +535,3 @@ C     12.4845000000    10.7010000000    12.4845000000
 C     13.3762500000    11.5927500000    13.3762500000
 C     12.4845000000    12.4845000000    10.7010000000
 C     13.3762500000    13.3762500000    11.5927500000
-
-K_POINTS gamma
