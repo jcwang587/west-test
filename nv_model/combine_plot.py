@@ -3,11 +3,13 @@
 Combine GPU utilization and memory plots from p4d_nv_1g_1o and p4d_nv_8g_8o
 into one figure. Run from nv_model/ or pass paths to gpu.log files.
 """
+
+from pathlib import Path
+
 import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
-from matplotlib.ticker import FuncFormatter
 import pandas as pd
-from pathlib import Path
+from matplotlib.ticker import FuncFormatter
 
 COLS = [
     "timestamp",

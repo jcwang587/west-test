@@ -9,7 +9,6 @@ Requirements:
 """
 
 import numpy as np
-from ase import Atoms
 from ase.build import bulk
 
 
