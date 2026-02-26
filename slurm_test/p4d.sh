@@ -25,6 +25,3 @@ export OMP_NUM_THREADS=1
 
 # Run WEST simulation
 mpirun -np 1 west.x -i west.in > west.out 2> west.err
-
-
-
