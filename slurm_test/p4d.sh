@@ -16,8 +16,10 @@ nvidia-smi -L
 
 source /etc/profile.d/west.sh
 
-job_path=$(pwd)
+export CUDA_VISIBLE_DEVICES=0
+export OMP_NUM_THREADS=1
 
-cd $job_path/t4_g4
-make all
+mpirun -np 1 pw.x -i pw.in > pw.out 2> pw.err
+
+
 
