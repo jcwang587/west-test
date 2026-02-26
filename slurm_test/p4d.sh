@@ -24,4 +24,4 @@ export CUDA_VISIBLE_DEVICES=0
 export OMP_NUM_THREADS=1
 
 # Run WEST simulation
-mpirun -np 1 west.x -i west.in > west.out 2> west.err
+mpirun -np 1 pw.x -i pw.in > pw.out 2> pw.err
