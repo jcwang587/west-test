@@ -15,3 +15,9 @@ nvidia-smi -L
 
 
 source /etc/profile.d/west.sh
+
+job_path=$(pwd)
+
+cd $job_path/t4_g4
+make all
+
