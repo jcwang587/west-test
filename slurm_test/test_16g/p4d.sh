@@ -21,7 +21,7 @@ nvidia-smi -L
 # Initialize WEST environment
 source /etc/profile.d/west.sh
 
-# Set CUDA visible devices and OpenMP threads
+# Set OpenMP threads
 export OMP_NUM_THREADS=1
 
 # Run WEST simulation

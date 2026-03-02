@@ -4,9 +4,11 @@
 #SBATCH --output=gpu-smoke-%j.out 
 #SBATCH --error=gpu-smoke-%j.err 
 #SBATCH --partition=gpu 
-#SBATCH --nodes=1 
-#SBATCH --ntasks=8 
-#SBATCH --gpus-per-node=8 
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --ntasks-per-node=8
+#SBATCH --gpus-per-task=1
+#SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
 
 ########################################################
@@ -19,8 +21,7 @@ nvidia-smi -L
 # Initialize WEST environment
 source /etc/profile.d/west.sh
 
-# Set CUDA visible devices and OpenMP threads
-export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+# Set OpenMP threads
 export OMP_NUM_THREADS=1
 
 # Run WEST simulation
