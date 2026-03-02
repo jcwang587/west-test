@@ -5,8 +5,9 @@
 #SBATCH --error=gpu-smoke-%j.err 
 #SBATCH --partition=gpu 
 #SBATCH --nodes=1 
-#SBATCH --ntasks=8 
-#SBATCH --gpus-per-node=8 
+#SBATCH --ntasks=8
+#SBATCH --gpus-per-task=1
+#SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
 
 ########################################################
@@ -23,4 +24,4 @@ source /etc/profile.d/west.sh
 export OMP_NUM_THREADS=1
 
 # Run WEST simulation
-mpirun -np 8 pw.x -ntg 1 -i pw.in > pw.out 2> pw.err
+mpirun -np 8 pw.x -pd true -ntg 1 -i pw.in > pw.out 2> pw.err
