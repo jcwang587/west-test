@@ -24,4 +24,4 @@ source /etc/profile.d/west.sh
 export OMP_NUM_THREADS=1
 
 # Run WEST simulation
-srun pw.x -pd true -ntg 8 -i pw.in > pw.out 2> pw.err
+mpirun -np 8 pw.x -pd true -ntg 4 -i pw.in > pw.out 2> pw.err
