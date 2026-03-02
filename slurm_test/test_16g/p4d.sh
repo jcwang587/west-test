@@ -4,9 +4,10 @@
 #SBATCH --output=gpu-smoke-%j.out 
 #SBATCH --error=gpu-smoke-%j.err 
 #SBATCH --partition=gpu 
-#SBATCH --nodes=1 
+#SBATCH --nodes=2
 #SBATCH --ntasks=16
-#SBATCH --gpus-per-node=8 
+#SBATCH --gpus-per-task=1
+#SBATCH --cpus-per-task=1
 #SBATCH --time=00:05:00
 
 ########################################################
